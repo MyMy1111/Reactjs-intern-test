@@ -1,0 +1,55 @@
+.comment_info{
+	width: 30%;
+	font-size: small;
+}
+
+.comment_info .movie_author{
+	border-bottom: 1px solid #F1F1F1;
+	padding: 50px;
+}
+
+.comment_info .movie_author p{
+	color: #CCC8C6;
+	margin-bottom: 1em;
+}
+
+.comment_info .movie_author .avatar{
+	display: flex;
+	justify-content: flex-start;
+	gap: 1em;
+}
+
+.comment_info .movie_author .avatar .detail .time{
+	display: flex;
+	justify-content: flex-start;
+	gap: 0.5em;
+	margin-top: 0.5em;
+}
+
+.comment_info .movie_small_detail{
+	border-bottom: 1px solid #F1F1F1;
+	padding: 50px;
+}
+
+.comment_info .movie_small_detail .movie_icon{
+	margin: 0.8em 0;
+}
+
+.comment_info .movie_small_detail .movie_icon i{
+	padding-right: 1em;
+}
+
+.comment_info .creative{
+	border-bottom: 1px solid #F1F1F1;
+	padding: 50px;
+}
+
+.comment_info .movie_category{
+	border-bottom: 1px solid #F1F1F1;
+	padding: 50px;
+}
+
+.comment_info .movie_report {
+	border-bottom: 1px solid #F1F1F1;
+	padding: 50px;
+}

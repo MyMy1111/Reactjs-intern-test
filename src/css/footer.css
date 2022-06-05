@@ -1,0 +1,86 @@
+.footer{
+	background: #1A1A1A;
+	overflow: hidden;
+	min-width: 100%;
+	height: 130px;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	margin-top: 50px;
+}
+
+.footer .contact{
+	display: flex;
+	justify-content: space-between;
+	padding: 10px;
+	height: 40px;
+	font-size: small;
+}
+
+.footer .contact .detail{
+	color: #FFFFFF;
+	width: 250px;
+	display: flex;
+	justify-content: space-between;
+	margin: 0 20px;
+}
+
+.footer .contact .social_media{
+	color: #CCC8C6;
+	width: 350px;
+	display: flex;
+	justify-content: space-around;
+}
+
+.footer .contact .social_media .icon{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 70px;
+	font-size: large;
+}
+
+.footer .motionTrend{
+	display: flex;
+	justify-content: space-between;
+	height: 40px;
+	padding: 10px;
+	background: #FFFFFF;
+}
+
+.footer .motionTrend .motionTrend_info{
+	display: flex;
+	justify-content: space-between;	
+	margin: 0 20px;
+	width: 550px;
+	cursor: pointer;
+}
+
+.footer .motionTrend .motionTrend_info span{
+	font-size: smaller;
+}
+
+.footer .motionTrend .motionTrend_info .line{
+	padding-right: 20px;
+	border-right: 1px solid #CCC8C6;
+}
+
+.footer .motionTrend .motionTrend_info select{
+	border: none;
+	cursor: pointer;
+}
+
+.footer .motionTrend .logo{
+	font-size: xx-small;
+	letter-spacing: 0.5em;
+	text-transform: uppercase;
+}
+/* 
+@media (max-width: 1000px){
+	.footer{
+	}
+} */
+
+
+
+

@@ -1,0 +1,36 @@
+.comment{
+	width: 70%;
+	padding: 50px;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	gap: 1em;
+	border-right: 1px solid #F1F1F1;
+}
+.comment #button{
+	margin: 50px 0;
+	width: 100%;
+}
+.comment .comment_post input{
+	height: 40px;
+	width: 93%;
+	padding: 0.7em;
+}
+
+.comment .comment_post button{
+	height: 40px;
+	width: 7%;
+	background: #000000;
+	color: #FFFFFF;
+}
+
+.comment button {
+	height: 40px;
+	background: #FFFFFF;
+	font-weight: bold;
+}
+
+::placeholder {
+  color: red;
+  opacity: 1; /* Firefox */
+}

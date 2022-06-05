@@ -1,0 +1,13 @@
+
+.comments .user_info{
+	display: flex;
+	justify-content: flex-start;
+	gap: 1em;
+	margin: 1.2em 0;
+}
+
+.comments .user_info .user_name{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}

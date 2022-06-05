@@ -1,0 +1,173 @@
+.movie_modal{
+	position: fixed;
+	top: 0;
+	left: 0;
+	background: #0008;
+	z-index: 99;
+	width: 100%;
+	height: 100vh;
+	overflow: scroll;
+	padding-bottom: 50px;
+}
+
+.movie_modal .modal_detail{
+	max-width: 1600px;
+	width: 100%;
+	background: #FFFFFF;
+	margin: 0 auto ;
+}
+
+.movie_modal .movie{
+	max-width: 1600px;
+	width: 100%;
+	background: #FFFFFF;
+	margin: 0 auto ;
+	padding: 0 50px 50px 50px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.movie_modal .movie .info{
+	display: flex;
+	justify-content: space-between;
+	padding-top: 30px;
+}
+
+
+.movie_modal .movie .info .detail{
+	padding: 0 20px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+}
+.movie_modal .movie .info .detail .title{
+	display: flex;
+	justify-content: flex-start;
+	gap: 15px;
+	font-size: 1.2em;
+}
+
+.movie_modal .movie .edit{
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	gap: 30px;
+	margin: 0;
+}
+
+.movie_modal .movie .edit .tag{
+	display: flex;
+	justify-content: space-around;
+
+}
+
+.movie_modal .movie .edit .tag h2{
+	background: red;
+	width: 60px;
+	height: 70px;
+	color: #FFFFFF;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-weight: bold;	
+}
+
+.movie_modal .video_modal{
+	padding: 0 70px;
+	border-top: 1px solid #F1F1F1;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.movie_modal .video_modal video{
+	width: 100%;
+	height: auto;
+	padding-top: 50px;
+}
+
+.movie_modal .image{
+	padding: 50px 200px;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	gap: 70px;
+}
+
+.movie_modal .movie_detail{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	padding: 50px 0;
+	border-top: 1px solid #F1F1F1;
+	height: 300px;
+}
+
+.movie_modal .movie_detail h1{
+	font-weight: 300;
+}
+
+.movie_modal .movie_detail .movie_icon i{
+	padding-right: 15px;
+}
+
+.movie_modal .movie_card {
+	padding: 50px;
+	background: #F1F1F1;
+}
+
+.movie_modal .movie_card .movie_card_title{
+	display: flex;
+	justify-content: flex-starts;
+	align-items: center;
+	gap: 1em;
+	font-weight: bold;
+	font-size: 1.2rem;
+	padding: 16px;
+}
+
+.movie_modal .movie_close{
+	width: 1em;
+	text-align: center;
+	color: #FFFFFF;
+	font-size: 2em;
+	font-weight: 300;
+	cursor: pointer;
+	position: fixed;
+	top: 0;
+	right: 1em;
+	text-decoration: none;
+}
+
+.movie_modal .movie_menu{
+	position: absolute;
+	top: 0;
+	right: 0;
+	transform: translate(-100%, 100%);
+}
+
+.movie_modal .carousel {
+	height: 100px;
+	position: fixed;
+	transform: translateY(600%);
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.movie_modal .carousel a{
+	display: inline-block;
+	padding: 8px 16px;
+	width: 175px;
+	height: 100px;
+	font-size: 50px;
+	font-weight: 100;
+	text-decoration: none;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: #FFFFFF;
+}

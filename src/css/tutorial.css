@@ -1,0 +1,45 @@
+.tutorial_movie{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.tutorial_movie .tutorial_img{
+	display: flex;
+	padding: 0.5em;
+	position: relative;
+	transform: translateX(-15%);
+}
+
+.tutorial_movie .tutorial_img img{
+	width: 160px;
+  height: 80px;
+  display: block;
+  object-fit: cover;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.tutorial_movie .tutorial_img .tutorial_info{
+	display: flex;
+	flex-direction: column;
+	margin-left: 15px;
+	flex-wrap: wrap;
+	gap: 0.5em;
+}
+
+.tutorial_movie .tutorial_img .tutorial_info h3{
+	position: relative;
+	transform: translateY(-15%);
+}
+
+.tutorial_movie .tutorial_img .tutorial_info .tutorial_icon{
+	display: flex;
+	justify-content: flex-start;
+	gap: 0.5em
+}
+
+.tutorial_movie .tutorial_img .tutorial_info p{
+	font-size: x-small;
+}

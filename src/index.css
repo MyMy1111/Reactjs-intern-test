@@ -1,13 +1,63 @@
-body {
+* {
+  padding: 0;
+  box-sizing: border-box;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  font-family: 'Montserrat', sans-serif,-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  scroll-behavior: smooth;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+/* ---------- Home Page ------------ */
+@import url('./css/home.css');
+
+/* ---------- Header ------------ */
+@import url('./css/header.css');
+
+/* ---------- Search ------------ */
+@import url('./css/search.css');
+
+/* ---------- Categories ------------ */
+@import url('./css/categories.css');
+
+/* ---------- Movies ------------ */
+@import url('./css/movies.css');
+
+/* ---------- Movie Card ------------ */
+@import url('./css/movies_card.css');
+
+/* ---------- Tutorial ------------ */
+@import url('./css/tutorialContainer.css');
+
+
+/* ---------- Tutorial ------------ */
+@import url('./css/tutorial.css');
+
+/* ---------- Footer ------------ */
+@import url('./css/footer.css');
+
+/* ---------- Modal ------------ */
+@import url('./css/movieModal.css');
+
+/* ---------- Comments Info------------ */
+@import url('./css/comment_info.css');
+
+/* ---------- Comments Post------------ */
+@import url('./css/comment_post.css');
+
+/* ---------- Comments Card------------ */
+@import url('./css/comment_card.css');
+
+/* ---------- Button Share------------ */
+@import url('./css/sharebutton.css');
+
+/* ---------- Avatar ------------ */
+@import url('./css/avatar.css');

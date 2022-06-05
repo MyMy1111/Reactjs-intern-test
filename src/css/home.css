@@ -1,0 +1,28 @@
+
+
+.category_container{
+	width: 100%;
+	overflow: scroll;
+}
+
+.content{
+	display: flex;
+	justify-content: space-between;
+	margin: 50px 25px 15px 25px;
+}
+
+.content .sub_content span{
+	padding-right: 25px;
+	font-size: 1.1em;
+}
+
+.content .sub_content span:first-child{
+	font-weight: bolder;
+	text-decoration: underline solid #1A1A1A 2px;
+	text-underline-position: under;
+}
+
+
+
+
+
